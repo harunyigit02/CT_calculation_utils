@@ -43,7 +43,7 @@ def list_to_file(file_name, list1):
 
 def summary():
     bilgiler = {"ad": "Harun", "soyad": "Yiğit", "numara": 211220029,
-                "not": "Asla yanlış yapmamış insan, yeni hiç birşey denememiştir."}
+                "not": "Asla yanlış yapmamış insan, yeni hiçbir şey denememiştir."}
 
     for key, value in bilgiler.items():
         print(key + ":", value)
